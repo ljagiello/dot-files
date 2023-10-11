@@ -1,0 +1,12 @@
+[user]
+  name = Lukasz Jagiello
+  email = lukasz@tempest.team
+[alias]
+  st = status
+[url "git@github.com:"]
+  insteadOf = https://github.com/
+[core]
+  editor = /usr/bin/vim
+	excludesfile = /Users/lcf/.gitignore
+[pull]
+  rebase = false
