@@ -1,12 +1,13 @@
-[user]
-  name = Lukasz Jagiello
-  email = lukasz@tempest.team
+[includeIf "gitdir:/Users/lcf/code/github.com/"]
+  path = /Users/lcf/.gitconfig-personal
+[includeIf "gitdir:/Users/lcf/code/github.com/tempestteam/"]
+  path = /Users/lcf/.gitconfig-work
 [alias]
   st = status
 [url "git@github.com:"]
   insteadOf = https://github.com/
 [core]
   editor = /usr/bin/vim
-	excludesfile = /Users/lcf/.gitignore
+  excludesfile = /Users/lcf/.gitignore
 [pull]
   rebase = false
