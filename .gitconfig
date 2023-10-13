@@ -1,6 +1,6 @@
-[includeIf "gitdir:/Users/lcf/code/"]
+[includeIf "gitdir:/Users/lcf/code/github.com/"]
   path = /Users/lcf/.gitconfig-personal
-[includeIf "gitdir:/Users/lcf/code/github.com/tempestteam"]
+[includeIf "gitdir:/Users/lcf/code/github.com/tempestteam/"]
   path = /Users/lcf/.gitconfig-work
 [alias]
   st = status
